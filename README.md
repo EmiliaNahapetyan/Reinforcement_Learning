@@ -24,17 +24,16 @@ Each project is placed in its own directory, complete with:
 ```
 Reinforcement-Learning/
 │── project-1/
-│   ├── README.md          # Project overview
-│   ├── main.py            # Main script
-│   ├── environment.py     # Environment logic
-│   ├── requirements.txt   # Dependencies
 │── project-2/
-│   ├── README.md
-│   ├── agent.py           # RL agent
-│   ├── train.py           # Training script
-│   ├── environment.py
-│── ...
-│── README.md              # Root README (this file)
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
+│── project-1/
 ```
 
 Some projects may also include **Jupyter notebooks**, **logs**, or **config files** for training setups.
@@ -90,14 +89,6 @@ python main.py  # or train.py depending on the setup
 
 ## **📦 Tools & Libraries**
 
-The following tools and frameworks are commonly used:
-
-- 🐍 **Python 3.x**
-- 📊 **NumPy, Pandas** – Data operations
-- 📈 **Matplotlib, Seaborn** – Visualizations
-- 🔧 **TensorFlow / PyTorch** – Model building
-- 🎮 **OpenAI Gym** – RL environments
-
 Each project lists its exact dependencies in `requirements.txt`.
 
 ---
@@ -111,16 +102,6 @@ Inspired by the legendary textbook:
 Second Edition – MIT Press, 2018  
 [📖 Read it here](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)
 
----
-
-## **🌱 Future Plans**
-
-🚧 Upcoming enhancements include:  
-- 🧩 **Multi-Agent RL** experiments  
-- 🌍 Training in **complex, real-world inspired scenarios**  
-- 🧬 Use of **evolutionary strategies** for optimization
-
----
 
 ## **📬 Contact**
 
