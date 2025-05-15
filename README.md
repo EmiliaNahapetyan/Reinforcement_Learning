@@ -23,17 +23,17 @@ Each project is placed in its own directory, complete with:
 
 ```
 Reinforcement-Learning/
-│── project-1/
-│── project-2/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
+│── tic-tac-toe/
+│── ten-armed-testbed/
+│── gridworld-mdp/
+│── gridworld-dp/
+│── gambler-problem/
+│── blackjack/
+│── infinite-variance/
+│── random-walk/
+│── windy-gridworld/
+│── cliff-walking/
+│── maximization-bias/
 ```
 
 Some projects may also include **Jupyter notebooks**, **logs**, or **config files** for training setups.
