@@ -56,11 +56,6 @@ Navigate to the `notebooks/` folder to explore Jupyter notebooks related to the 
 
 All core logic and modules reside in the `src/` directory. This may include game mechanics, utilities, and reinforcement learning implementations (if applicable).
 
----
-
-## 🧾 License
-
-Add your license here (e.g., MIT, GPL, etc.)
 
 ---
 
