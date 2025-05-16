@@ -7,13 +7,6 @@ Two agents learn optimal strategies by self-play using **value function updates*
 
 ---
 
-## 🧠 Based On
-
-📘 Sutton, R. S., & Barto, A. G. (2018).  
-_Reinforcement Learning: An Introduction (2nd Edition)_  
-🔗 [Read it online](http://incompleteideas.net/book/the-book-2nd.html)
-
----
 
 ## 📁 Project Structure
 
@@ -34,8 +27,8 @@ tic-tac-toe/
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/YourUsername/tic-tac-toe.git
-cd tic-tac-toe/src
+git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+cd Reinforcement_Learning/tic-tac-toe
 ```
 
 2. **Train the agents** (optional, if policies are not trained yet)  
