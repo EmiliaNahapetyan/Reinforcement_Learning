@@ -44,25 +44,22 @@ Some projects may also include **Jupyter notebooks**, **logs**, or **config file
 
 To try out any project:
 
-### 1️⃣ Clone the repository  
+### 1️⃣ Clone the repository and Enter the project folder
 ```bash
 git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
-cd Reinforcement_Learning
+cd Reinforcement_Learning/gambler-problem
 ```
 
-### 2️⃣ Enter the project folder  
+### 2️⃣ Create and activate a virtual environment  
 ```bash
-cd gambler-problem
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies  
+### 3️⃣ Launch Jupyter Notebook
 ```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the main script  
-```bash
-python main.py  # or train.py depending on the setup
+cd notebooks
+jupyter notebook gamblers_problem.ipynb
 ```
 
 ---
