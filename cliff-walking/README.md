@@ -21,19 +21,8 @@ cliff-walking/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/EmiliaNahapetyan/cliff-walking.git
-   cd cliff-walking
-   ```
-
-2. **(Optional) Set up a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-
-3. **Install dependencies (if you have a requirements.txt):**
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+   cd Reinforcement_Learning/cliff-walking
    ```
 
 ---
@@ -46,8 +35,20 @@ Explore experiments, visualizations, and model training inside the `notebooks/` 
 
 ## 🖼️ Images
 
-- `book_images/` – Static figures used in explanations or slides.
-- `generated_images/` – Created during training to visualize agent behavior or policy evolution.
+- `Book_images` – Static figures used in explanations or slides.
+
+1. <img src="https://github.com/user-attachments/assets/a5bc94b5-110c-4415-bc4b-5374002b2c29" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/a0b69b99-78a3-4d70-a01d-4792488c19cd" width="400" />
+
+3. <img src="https://github.com/user-attachments/assets/36f1b944-69e1-4aa7-b5a5-58e77bfa500e" width="400" />
+
+- `Generated_images` – Created during training to visualize agent behavior or policy evolution.
+
+1. <img src="https://github.com/user-attachments/assets/1f973ba6-cc42-449f-9d55-15e49d06bcda" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/df6bf274-07df-4dcd-9899-c91d73aadc2e" width="400" />
+
 
 ---
 
