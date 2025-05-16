@@ -21,19 +21,14 @@ windy-gridworld/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/EmiliaNahapetyan/windy-gridworld.git
-   cd windy-gridworld
+   git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+   cd Reinforcement_Learning/windy_gridworld
    ```
 
 2. **Set up a virtual environment (optional but recommended):**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ---
@@ -46,10 +41,16 @@ Explore the `notebooks/` directory for interactive examples and experiments usin
 
 ## 🖼️ Images
 
-- **book_images/** – Visuals used in external documentation or educational content.
-- **generated_images/** – Plots and visualizations generated during experiments.
+- **Book_images** – Visuals used in external documentation or educational content.
+1. <img src="https://github.com/user-attachments/assets/4d940ca6-1945-4741-889e-2a0465e9e5f8" width="400"/>
+  
 
----
+2. <img src="https://github.com/user-attachments/assets/374bf8bd-733a-4f90-a135-3e425712c0ec" width="400"/>
+
+
+- **generated_images** – Plots and visualizations generated during experiments.
+1.  <img src="https://github.com/user-attachments/assets/ca89106c-783d-4669-a5f8-8b14806b65be" alt="example_6_5" width="400"/>
+ ---
 
 ## ⚙️ Source Code
 
