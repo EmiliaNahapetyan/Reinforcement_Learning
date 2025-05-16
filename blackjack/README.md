@@ -22,8 +22,8 @@ blackjack/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/blackjack.git
-   cd blackjack
+   git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+   cd Reinforcement_Learning/blackjack
    ```
 
 2. **Create a virtual environment and activate it:**
@@ -47,8 +47,25 @@ Navigate to the `notebooks/` folder to explore Jupyter notebooks related to the 
 
 ## 🖼️ Images
 
-- `book_images/` - Static images used in documentation or reporting.
-- `generated_images/` - Images created dynamically, possibly from code execution.
+- `Book_images` - Static images used in documentation or reporting.
+
+1. <img src="https://github.com/user-attachments/assets/7d1ff6e6-d142-45de-b8f1-1859b36ae409" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/35624941-b204-4369-be7c-5474d10f82c8" width="400" />
+
+3. <img src="https://github.com/user-attachments/assets/1b4bedfe-836c-42ae-bc8e-aef8c9cbf959" width="400" />
+
+4. <img src="https://github.com/user-attachments/assets/e908b4ad-4330-42ac-810e-929bf3416f32" width="400" />
+
+
+- `Generated_images` - Images created dynamically, possibly from code execution.
+
+1. <img src="https://github.com/user-attachments/assets/0f717c31-b37d-4f2a-a829-f45589266a7c" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/daa216ef-2885-431f-b993-7656b7204e4d" width="400" />
+
+3. <img src="https://github.com/user-attachments/assets/743bc1c9-37ed-4ce4-83fe-820f61b091da" width="400" />
+
 
 ---
 
