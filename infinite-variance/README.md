@@ -21,19 +21,8 @@ infinite-variance/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/EmiliaNahapetyan/infinite-variance.git
-   cd infinite-variance
-   ```
-
-2. **Set up a virtual environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+   cd Reinforcement_Learning/infinite-variance
    ```
 
 ---
@@ -49,8 +38,15 @@ Explore the `notebooks/` directory for Jupyter notebooks showcasing variance pro
 
 ## 🖼️ Images
 
-- **book_images/** – Contains visuals used in documentation or educational material.
-- **generated_images/** – Includes images created from running code (e.g., plots, agent paths).
+- **Book_images** – Contains visuals used in documentation or educational material.
+  
+1. <img src="https://github.com/user-attachments/assets/6060fb8c-55d4-46b0-b7c5-89dc38643505" width="400" />
+
+2. ![Figure_5_4_1](https://github.com/user-attachments/assets/89888fd9-4507-4c5d-9110-2b8dc5df97e3)
+
+- **Generated_images** – Includes images created from running code (e.g., plots, agent paths).
+
+1. <img src="https://github.com/user-attachments/assets/73156f7d-cf6e-49c3-8e36-9956e2f51150" width="400" />
 
 ---
 
