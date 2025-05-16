@@ -20,26 +20,12 @@ random-walk/
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/EmiliaNahapetyan/random-walk.git
-cd random-walk
-# (optional) create a virtual environment
-pip install -r requirements.txt
+git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+cd Reinforcement_Learning/random-walk
 ```
 
 ---
 
-## 📓 Usage
-
-You can start by exploring the Jupyter notebooks:
-
-```bash
-cd notebooks
-jupyter notebook
-```
-
-Or run simulations directly via scripts in the `src/` folder.
-
----
 
 ## 📦 Dependencies
 
@@ -50,6 +36,14 @@ Or run simulations directly via scripts in the `src/` folder.
 
 ---
 
+## 🖼 Generated Images  
+
+1. <img src="https://github.com/user-attachments/assets/6dea2bed-49be-48a9-bbc5-bac61a678ab0" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/1b11a33b-fdf8-4969-ae97-9736e27a2c9d" width="400" />
+
+
+---
 
 ## 🤝 Contributing
 
