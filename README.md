@@ -46,8 +46,8 @@ To try out any project:
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/EmiliaNahapetyan/Reinforcement-Learning.git
-cd gambler-problem
+git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+cd Reinforcement_Learning
 ```
 
 ### 2️⃣ Enter the project folder  
