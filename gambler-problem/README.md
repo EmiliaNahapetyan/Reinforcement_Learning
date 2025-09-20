@@ -2,9 +2,6 @@
 
 This project implements the **Gambler's Problem** from **Chapter 4: Dynamic Programming** of the renowned book:
 
-> Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.).  
-> [http://incompleteideas.net/book/the-book-2nd.html](http://incompleteideas.net/book/the-book-2nd.html)
-
 ---
 
 ## 📁 Project Structure
@@ -41,23 +38,26 @@ It includes:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/gambler-problem.git
-   cd gambler-problem
-   ```
-
-2. Install any necessary dependencies (add a `requirements.txt` if needed).
-
-3. Run the notebook:
-   ```bash
-   jupyter notebook notebooks/gamblers_problem.ipynb
+   git clone https://github.com/EmiliaNahapetyanReinforcement_Learning.git
+   cd Reinforcement_Learning/gambler-problem
    ```
 
 ---
 
-## 📚 Reference
+## 🖼 Images  
 
-Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.).  
-Available at: [http://incompleteideas.net/book/the-book-2nd.html](http://incompleteideas.net/book/the-book-2nd.html)
+Book images
+
+1. <img src="https://github.com/user-attachments/assets/727eb9d5-fae4-4603-945b-6d44bb2e09fb0" width="400" />
+
+ Generated images
+
+1. <img src="https://github.com/user-attachments/assets/c6cd4ea3-7a9c-4353-95b5-03520fba9938" width="400" />
 
 ---
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests. 🌟
 

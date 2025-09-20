@@ -7,12 +7,6 @@ Gridworld is a simple and effective example to understand **Dynamic Programming*
 
 ---
 
-## 🧠 Based On
-
-📘 Sutton, R. S., & Barto, A. G. (2018).  
-_Reinforcement Learning: An Introduction (2nd Edition)_  
-🔗 [Read the book online](http://incompleteideas.net/book/the-book-2nd.html)
-
 Chapter: **3. Finite Markov Decision Processes**
 
 ---
@@ -41,20 +35,10 @@ gridworld-mdp/
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/YourUsername/gridworld-mdp.git
-cd gridworld-mdp
+git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+cd Reinforcement_Learning/gridworld-mdp
 ```
 
-2. **Install dependencies**  
-You can use pip or conda depending on your setup:
-```bash
-pip install -r requirements.txt
-```
-
-3. **Open the notebook**  
-```bash
-jupyter notebook notebooks/grid_world.ipynb
-```
 
 ---
 
@@ -68,3 +52,16 @@ jupyter notebook notebooks/grid_world.ipynb
 
 ---
 
+## 🖼 Generated Images  
+
+1. <img src="https://github.com/user-attachments/assets/2f40007f-48d5-484c-80ae-df4971552d74" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/2bcb6889-5623-4653-a776-fb057f7ad2c4" width="400" />
+
+3. <img src="https://github.com/user-attachments/assets/1ae38c55-5cf1-4a2c-ba19-c8e55431cd52" width="400" />
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests. 🌟

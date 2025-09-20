@@ -1,10 +1,5 @@
 # Gridworld Dynamic Programming
 
-This repository contains an implementation of the Gridworld example from **Chapter 4: Dynamic Programming** of the foundational book:
-
-> Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.).  
-> [http://incompleteideas.net/book/the-book-2nd.html](http://incompleteideas.net/book/the-book-2nd.html)
-
 ---
 
 ## 📁 Project Structure
@@ -48,20 +43,18 @@ The goal is to understand how value functions evolve over iterations and match t
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/gridworld-dp.git
-   cd gridworld-dp
-   ```
-
-2. Set up a virtual environment and install dependencies (if any):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt  # (create this if needed)
-   ```
-
-3. Launch the Jupyter notebook:
-   ```bash
-   jupyter notebook notebooks/grid_world.ipynb
+   git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+   cd Reinforcement_Learning/gridworld-dp
    ```
 
 ---
+## 🖼 Generated Images  
+
+1. <img src="https://github.com/user-attachments/assets/1540e2a0-ce4e-4b6d-8824-ea0d97dcc78e" width="400" />
+
+2. <img src="https://github.com/user-attachments/assets/a33a9d11-0ab5-423d-813f-42887cb014f0" width="400" />
+
+---
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests. 🌟
