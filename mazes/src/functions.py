@@ -187,7 +187,7 @@ def prioritized_sweeping(action_value_estimates, model, maze, dyna_params):
     # While the agent hasn't reached its goal
     while state not in maze.goals:
         # increment the number of steps
-        steps +=1
+        steps += 1
 
         # choose an action
         action = choose_action(state, action_value_estimates, maze, dyna_params)
@@ -200,7 +200,8 @@ def prioritized_sweeping(action_value_estimates, model, maze, dyna_params):
 
         # get the priority for current state-action pair
         priority = np.abs(reward
-                          + dyna_params.discount * np.max(action_value_estimates[next_state[0], next_state[1], :])
+                          + dyna_params.discount
+                          * np.max(action_value_estimates[next_state[0], next_state[1], :])
                           - action_value_estimates[state[0], state[1], action])
 
         # check whether priority exceeds threshold
@@ -211,23 +212,22 @@ def prioritized_sweeping(action_value_estimates, model, maze, dyna_params):
         planning_step = 0
 
         # planning for several steps (although, keep planning until the priority queue becomes empty will converge much faster)
-        while planning_step < dyna_params.planning_steps and model.empty():
+        while planning_step < dyna_params.planning_steps and not model.empty():
             # get a sample with the highest priority from the model
             priority, state_, action_, next_state_, reward_ = model.sample()
 
             # update the state action value for the sample
-            delta = (reward_ + dyna_params.discount
-                             * np.max(action_value_estimates[next_state_[0], next_state[1], :])
-                             - action_value_estimates[state_[0], state_[1], action_])
+            delta = reward_ + dyna_params.discount * np.max(action_value_estimates[next_state_[0], next_state_[1], :]) - \
+                    action_value_estimates[state_[0], state_[1], action_]
+            action_value_estimates[state_[0], state_[1], action_] += dyna_params.step_size * delta
 
             # update action-value estimates
             action_value_estimates[state_[0], state_[1], action_] += dyna_params.step_size * delta
 
             # deal with all the predecessors of the sample state
-            for state_predecessors, action_predecessors, reward_pre in model.predecessors(state_):
-                priority = np.abs(reward_pre + dyna_params.discount
-                                  * np.max(action_value_estimates[state_[0], state_[1], :])
-                                  - action_value_estimates[state_predecessors[0], state_predecessors[1], action_predecessors])
+            for state_predecessors, action_predecessors, reward_pre in model.predecessor(state_):
+                priority = np.abs(reward_pre + dyna_params.discount * np.max(action_value_estimates[state_[0], state_[1], :]) -
+                                  action_value_estimates[state_predecessors[0], state_predecessors[1], action_predecessors])
 
                 # check whether priority exceeds threshold
                 if priority > dyna_params.threshold:
@@ -240,11 +240,12 @@ def prioritized_sweeping(action_value_estimates, model, maze, dyna_params):
         state = next_state
 
         # update the number of backups
-        backups += 1
+        backups += planning_step + 1
 
     return backups
 
     # endregion Body
+
 
 def check_path(action_value_estimates, maze):
     # region Summary
@@ -293,3 +294,4 @@ def check_path(action_value_estimates, maze):
     # endregion Body
 
 # endregion Prioritized Sweeping
+

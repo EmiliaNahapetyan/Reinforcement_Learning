@@ -23,17 +23,17 @@ Each project is placed in its own directory, complete with:
 
 ```
 Reinforcement-Learning/
-│── project-1/
-│── project-2/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
-│── project-1/
+│── tic-tac-toe/
+│── ten-armed-testbed/
+│── gridworld-mdp/
+│── gridworld-dp/
+│── gambler-problem/
+│── blackjack/
+│── infinite-variance/
+│── random-walk/
+│── windy-gridworld/
+│── cliff-walking/
+│── maximization-bias/
 ```
 
 Some projects may also include **Jupyter notebooks**, **logs**, or **config files** for training setups.
@@ -44,46 +44,31 @@ Some projects may also include **Jupyter notebooks**, **logs**, or **config file
 
 To try out any project:
 
-### 1️⃣ Clone the repository  
+### 1️⃣ Clone the repository and Enter the project folder
 ```bash
-git clone https://github.com/EmiliaNahapetyan/Reinforcement-Learning.git
-cd Reinforcement-Learning
+git clone https://github.com/EmiliaNahapetyan/Reinforcement_Learning.git
+cd Reinforcement_Learning/gambler-problem
 ```
 
-### 2️⃣ Enter the project folder  
+### 2️⃣ Create and activate a virtual environment  
 ```bash
-cd project-1
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies  
+### 3️⃣ Launch Jupyter Notebook
 ```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the main script  
-```bash
-python main.py  # or train.py depending on the setup
+cd notebooks
+jupyter notebook gamblers_problem.ipynb
 ```
 
 ---
 
 ## **📁 Projects Included**
 
-### ✅ **1. Foundational Algorithms**
+### ✅ **Foundational Algorithms**
 - Classic RL methods: **Q-Learning**, **SARSA**, **Monte Carlo**
 - Implemented in small-scale, intuitive environments
-
-### ✅ **2. Policy Optimization**
-- Exploration of **DQN**, **Policy Gradients**, and **Actor-Critic**
-- Focus on training efficiency and reward shaping
-
-### ✅ **3. Custom Environments**
-- Designing environments from scratch or extending **OpenAI Gym**
-- Tailored to test agent behaviors in unique settings
-
-### ✅ **4. Evaluation & Tuning**
-- Systematic experimentation with learning rates, rewards, and architectures  
-- Comparative analysis of performance metrics
 
 ---
 
