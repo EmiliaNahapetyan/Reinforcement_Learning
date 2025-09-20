@@ -34,6 +34,9 @@ Reinforcement-Learning/
 │── windy-gridworld/
 │── cliff-walking/
 │── maximization-bias/
+│── random-walk-ntd/
+│── mazes/
+│── updates-comparison/
 ```
 
 Some projects may also include **Jupyter notebooks**, **logs**, or **config files** for training setups.
