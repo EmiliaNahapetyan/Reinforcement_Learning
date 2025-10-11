@@ -37,6 +37,9 @@ Reinforcement-Learning/
 │── random-walk-ntd/
 │── mazes/
 │── updates-comparison/
+│── trajectory-sampling/
+│── coarse-coding/
+│── random-walk-fa/
 ```
 
 Some projects may also include **Jupyter notebooks**, **logs**, or **config files** for training setups.
